@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Game Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			/* max-height: 50%; */
+			/* height: 100vh; */
+            background-image: url("https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1060&t=st=1682674043~exp=1682674643~hmac=f33f72ff025d0997e0a817a55300af8383fe9f23f19b0213cc04ca825f58066e");
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+        button{
+            border-radius: 5px;
+            border: solid black;
+        }
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			max-height: 100vh;
+		}
+		.game {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			padding: 20px;
+			margin: 20px;
+			width: 300px;
+			text-align: center;
+		}
+		.game img {
+			max-width: 100%;
+			height: auto;
+		}
+		.game h2 {
+			margin-top: 0;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Mini Game Page</h1>
+	</header>
+	<div class="container">
+        <section class="game" id="id1">
+            <img src="pz1.jpg" alt="Game 2">
+            <h2>Memory Game (4*4)</h2>
+            <p>Memory puzzle game is a game where players need to match pairs of cards with identical pictures. The goal is to complete the game with the least number of attempts and time..</p>
+            <button onclick="window.location.href='pz1/index.html';">Play Memory Game (4*4)</button>
+        </section>
+		<section class="game">
+			<img src="ttt.jpg" alt="Tic-Tac-Toe">
+			<h2>Tic-Tac-Toe</h2>
+			<p>Tic Tac Toe is a classic paper-and-pencil game played on a 3x3 grid. The goal is to get three of your symbols in a row before your opponent does..</p>
+			<button onclick="window.location.href='tic-tac/index.html';">Play Tic-Tac-Toe</button>
+		</section>
+		<section class="game">
+			<img src="pz1.jpg" alt="Memory Game (6*6)">
+			<h2>Memory Game (6*6)</h2>
+			<p>Memory puzzle game is a game where players need to match pairs of cards with identical pictures. The goal is to complete the game with the least number of attempts and time..</p>
+			<button onclick="window.location.href='pz2/index.html';">Play Memory Game (6*6)</button>
+		</section>
+	</div>
+</body>
+</html>
